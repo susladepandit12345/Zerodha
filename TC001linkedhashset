@@ -1,0 +1,8 @@
+ File scr = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		  Date d= new Date();
+		    String date = d.toString();
+		     String de = date.replace(":", "_");
+		  File std =new File("D:\\Sceenshot1\\image_"+de+".jpg");
+		  
+		  FileHandler.copy(scr, std);
+		  driver.quit();
