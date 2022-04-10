@@ -1,0 +1,21 @@
+public class Return1 {
+	public static float test1(){
+		float a=98.8f;
+		return a ;
+		
+	}public static void main(String[] args) {
+		
+		 Return1 abc =new  Return1();
+		boolean def = abc.test2();
+		
+		System.out.println(def);
+		float ref = test1();
+	
+			System.out.println(ref);
+	}
+	public boolean test2(){
+	
+		boolean a=false;
+		return a; 
+	}
+	} 
